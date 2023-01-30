@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>OurTravel</title>
+</head>
+
+<body>
+    <!-- 上選單start -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">OurTravel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OurTravel</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ticket.html">票卷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">住宿</a>
+                        </li>
+                        <!-- 行程 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                行程
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="./d1.html">Day 1</a></li>
+                                <li><a class="dropdown-item" href="./d2.html">Day 2</a></li>
+                                <li><a class="dropdown-item" href="./d3.html">Day 3</a></li>
+                                <li><a class="dropdown-item" href="./d4.html">Day 4</a></li>
+                                <li><a class="dropdown-item" href="./d5.html">Day 5</a></li>
+                                <li><a class="dropdown-item" href="./d6.html">Day 6</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./d7.html">Day 7</a></li>
+                                <li><a class="dropdown-item" href="./d8.html">Day 8</a></li>
+                                <li><a class="dropdown-item" href="./d9.html">Day 9</a></li>
+                                <li><a class="dropdown-item" href="./d10.html">Day 10</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- 交通 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                交通
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="../route/d1.html">Day 1</a></li>
+                                <li><a class="dropdown-item" href="../route/d2.html">Day 2</a></li>
+                                <li><a class="dropdown-item" href="../route/d3.html">Day 3</a></li>
+                                <li><a class="dropdown-item" href="../route/d4.html">Day 4</a></li>
+                                <li><a class="dropdown-item" href="../route/d5.html">Day 5</a></li>
+                                <li><a class="dropdown-item" href="../route/d6.html">Day 6</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../route/d7.html">Day 7</a></li>
+                                <li><a class="dropdown-item" href="../route/d8.html">Day 8</a></li>
+                                <li><a class="dropdown-item" href="../route/d9.html">Day 9</a></li>
+                                <li><a class="dropdown-item" href="../route/d10.html">Day 10</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../doc.html">其他文件</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 上選單End -->
+
+    <!-- 預定行程列表Start -->
+    <h3 class="top-10 text-center bg-secondary text-white">Day 7 行程</h3>
+    <table class="table top-10">
+        <thead>
+            <tr>
+                <th scope="col">時間</th>
+                <th scope="col">地點</th>
+                <th scope="col">價格</th>
+                <th scope="col">交通</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>??:??</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aModal">
+                        伏見稻荷大社
+                    </button>
+                </td>
+                <td>円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aTraModal">
+                        12min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>??:??</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#bModal">
+                        清水寺
+                    </button>
+                </td>
+                <td>円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bTraModal">
+                        35min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>??:??</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#cModal">
+                        京都花見小路
+                    </button>
+                </td>
+                <td>円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cTraModal">
+                        15min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>??:??</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dModal">
+                        錦市場
+                    </button>
+                </td>
+                <td>円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dTraModal">
+                        15min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>返家</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backTraModal">
+                        15min
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- 預定行程列表End -->
+    <!-- Modal 伏見稻荷大社 介紹 -->
+    <div class="modal fade" id="aModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">伏見稻荷大社</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        伏見稻荷大社（日語：伏見稲荷大社／ふしみいなりたいしゃ Fushimi-Inari Taisha）是一座位於日本京都市伏見區內的神社，是遍及日本全國各地約三萬所的稻荷神社之總本社，也是近畿地方初詣參拜者最多的社寺（2010年日本國內第4位）。以境內所擁有的「千本鳥居」聞名。
+                    </p>
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/24.jpg" class="w-75">
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/28.jpg" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 伏見稻荷大社 交通 -->
+    <div class="modal fade" id="aTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => ⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>巴士(市營50) 15min 12站</li>
+                        <li>烏丸線 7min 4站 => 走路900m 12min</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d38056.970537661866!2d135.71182729684423!3d35.00590288108257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIEhpZ2FzaGlzaGlva29qaSBLYW1hZG9ub2NobywgU2hpbW9neW8gV2FyZCwgS3lvdG8sIOaXpeacrA!3m2!1d34.985849!2d135.7587667!4m5!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2z5LqM5qKd5Z-OIOaXpeacrOOAkjYwNC04MzAxIEt5b3RvLCBOYWthZ3lvIFdhcmQsIE5pam9qb2NobywgNTQx!3m2!1d35.0142299!2d135.74821799999998!5e0!3m2!1szh-TW!2stw!4v1674996433361!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 清水寺 介紹 -->
+    <div class="modal fade" id="bModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>元離宮二條城（日語：もとりきゅうにじょうじょう）是一座位於日本京都府京都市中京區二條城町的城堡，始建於江戶時代初期慶長八年（1603年）。是江戶幕府第一代征夷大將軍德川家康作為守護京都御所以及到京都拜見天皇住宿的地方。現在看到的規模是寬永元年（1624年）三代將軍德川家光對二條城進行擴建，才有現今的規模。二條城是一座位於京都市街的一座平城。
+                    </p>
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/24.jpg" class="w-75">
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/28.jpg" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 清水寺 交通 -->
+    <div class="modal fade" id="bTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => ⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>巴士(市營50) 15min 12站</li>
+                        <li>烏丸線 7min 4站 => 走路900m 12min</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d38056.970537661866!2d135.71182729684423!3d35.00590288108257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIEhpZ2FzaGlzaGlva29qaSBLYW1hZG9ub2NobywgU2hpbW9neW8gV2FyZCwgS3lvdG8sIOaXpeacrA!3m2!1d34.985849!2d135.7587667!4m5!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2z5LqM5qKd5Z-OIOaXpeacrOOAkjYwNC04MzAxIEt5b3RvLCBOYWthZ3lvIFdhcmQsIE5pam9qb2NobywgNTQx!3m2!1d35.0142299!2d135.74821799999998!5e0!3m2!1szh-TW!2stw!4v1674996433361!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 京都花見小路 介紹 -->
+    <div class="modal fade" id="cModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>元離宮二條城（日語：もとりきゅうにじょうじょう）是一座位於日本京都府京都市中京區二條城町的城堡，始建於江戶時代初期慶長八年（1603年）。是江戶幕府第一代征夷大將軍德川家康作為守護京都御所以及到京都拜見天皇住宿的地方。現在看到的規模是寬永元年（1624年）三代將軍德川家光對二條城進行擴建，才有現今的規模。二條城是一座位於京都市街的一座平城。
+                    </p>
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/24.jpg" class="w-75">
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/28.jpg" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 京都花見小路 交通 -->
+    <div class="modal fade" id="cTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => ⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>巴士(市營50) 15min 12站</li>
+                        <li>烏丸線 7min 4站 => 走路900m 12min</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d38056.970537661866!2d135.71182729684423!3d35.00590288108257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIEhpZ2FzaGlzaGlva29qaSBLYW1hZG9ub2NobywgU2hpbW9neW8gV2FyZCwgS3lvdG8sIOaXpeacrA!3m2!1d34.985849!2d135.7587667!4m5!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2z5LqM5qKd5Z-OIOaXpeacrOOAkjYwNC04MzAxIEt5b3RvLCBOYWthZ3lvIFdhcmQsIE5pam9qb2NobywgNTQx!3m2!1d35.0142299!2d135.74821799999998!5e0!3m2!1szh-TW!2stw!4v1674996433361!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 錦市場 介紹 -->
+    <div class="modal fade" id="dModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>元離宮二條城（日語：もとりきゅうにじょうじょう）是一座位於日本京都府京都市中京區二條城町的城堡，始建於江戶時代初期慶長八年（1603年）。是江戶幕府第一代征夷大將軍德川家康作為守護京都御所以及到京都拜見天皇住宿的地方。現在看到的規模是寬永元年（1624年）三代將軍德川家光對二條城進行擴建，才有現今的規模。二條城是一座位於京都市街的一座平城。
+                    </p>
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/24.jpg" class="w-75">
+                    <img src="http://www.mikey-remona.com/upload/blog/1179/28.jpg" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 錦市場 交通 -->
+    <div class="modal fade" id="dTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => ⼆条城</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>巴士(市營50) 15min 12站</li>
+                        <li>烏丸線 7min 4站 => 走路900m 12min</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d38056.970537661866!2d135.71182729684423!3d35.00590288108257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIEhpZ2FzaGlzaGlva29qaSBLYW1hZG9ub2NobywgU2hpbW9neW8gV2FyZCwgS3lvdG8sIOaXpeacrA!3m2!1d34.985849!2d135.7587667!4m5!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2z5LqM5qKd5Z-OIOaXpeacrOOAkjYwNC04MzAxIEt5b3RvLCBOYWthZ3lvIFdhcmQsIE5pam9qb2NobywgNTQx!3m2!1d35.0142299!2d135.74821799999998!5e0!3m2!1szh-TW!2stw!4v1674996433361!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 錦市場 返家 -->
+    <div class="modal fade" id="backTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">⼆条城 => 京都車站</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>巴士(市營9) 14min 10站</li>
+                        <li>走路900m 13min => 烏丸線 7min 4站</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26145.74785110116!2d135.73330914083434!3d35.00123559697346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2z5LqM5qKd5Z-ONTQxIE5pam9qb2NobywgTmFrYWd5byBXYXJkLCBLeW90bywgNjA0LTgzMDHml6XmnKw!3m2!1d35.0142299!2d135.74821799999998!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5pel5pys5Lqs6YO95bqc5Lqs6YO95biC5LiL5Lqs5Y2AIEhpZ2FzaGlzaGlva29qaSBLYW1hZG9ub2Nobywg5Lqs6YO96LuK56uZ!3m2!1d34.985849!2d135.7587667!5e0!3m2!1szh-TW!2stw!4v1675090484973!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
