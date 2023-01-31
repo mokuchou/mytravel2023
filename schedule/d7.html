@@ -98,10 +98,14 @@
                 <td>??:??-??:??</td>
                 <td>東京-京都</td>
                 <td>13,000円</td>
-                <td>新幹線</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aTraModal">
+                        2.5hr
+                    </button>
+                </td>
             </tr>
             <tr>
-                <td>18:00-22:00</td>
+                <td>20:00</td>
                 <td>
                     <div data-bs-toggle="modal" data-bs-target="#yModal">
                         ⼆条城
@@ -127,6 +131,26 @@
         </tbody>
     </table>
     <!-- 預定行程列表End -->
+
+    <!-- Modal 京都 交通 -->
+    <div class="modal fade" id="aTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">東京車站 => 京都車站</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>新幹線 150min</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Modal ⼆条城 介紹 -->
     <div class="modal fade" id="yModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -136,7 +160,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>元離宮二條城（日語：もとりきゅうにじょうじょう）是一座位於日本京都府京都市中京區二條城町的城堡，始建於江戶時代初期慶長八年（1603年）。是江戶幕府第一代征夷大將軍德川家康作為守護京都御所以及到京都拜見天皇住宿的地方。現在看到的規模是寬永元年（1624年）三代將軍德川家光對二條城進行擴建，才有現今的規模。二條城是一座位於京都市街的一座平城。
+                    <p>
+                        18:00-22:00<br>
+                        元離宮二條城（日語：もとりきゅうにじょうじょう）是一座位於日本京都府京都市中京區二條城町的城堡，始建於江戶時代初期慶長八年（1603年）。是江戶幕府第一代征夷大將軍德川家康作為守護京都御所以及到京都拜見天皇住宿的地方。現在看到的規模是寬永元年（1624年）三代將軍德川家光對二條城進行擴建，才有現今的規模。二條城是一座位於京都市街的一座平城。
                     </p>
                     <img src="http://www.mikey-remona.com/upload/blog/1179/24.jpg" class="w-100">
                     <img src="http://www.mikey-remona.com/upload/blog/1179/28.jpg" class="w-100">
