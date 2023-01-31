@@ -57,13 +57,14 @@
                                 <li><a class="dropdown-item" href="./d4.html">Day 4</a></li>
                                 <li><a class="dropdown-item" href="./d5.html">Day 5</a></li>
                                 <li><a class="dropdown-item" href="./d6.html">Day 6</a></li>
+                                <li><a class="dropdown-item" href="./d7.html">Day 7</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="./d7.html">Day 7</a></li>
                                 <li><a class="dropdown-item" href="./d8.html">Day 8</a></li>
                                 <li><a class="dropdown-item" href="./d9.html">Day 9</a></li>
                                 <li><a class="dropdown-item" href="./d10.html">Day 10</a></li>
+                                <li><a class="dropdown-item" href="./d11.html">Day 11</a></li>
                             </ul>
                         </li>
 
@@ -94,25 +95,73 @@
         </thead>
         <tbody>
             <tr>
-                <td>07:55-09:55</td>
+                <td>10:00-17:00</td>
                 <td>
                     <div data-bs-toggle="modal" data-bs-target="#aModal">
-                        KIX-TPE
+                        東映太秦映畫村
                     </div>
                 </td>
-                <td>7,711元</td>
+                <td>3,900円</td>
                 <td>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#airTraModal">
-                        180min
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aTraModal">
+                        30min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>9:00-17:00</td>
+                <td>
+                    <div data-bs-toggle="modal" data-bs-target="#bModal">
+                        金閣寺
+                    </div>
+                </td>
+                <td>500円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bTraModal">
+                        35min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>9:00-18:00</td>
+                <td>
+                    <div data-bs-toggle="modal" data-bs-target="#cModal">
+                        晴明神社
+                    </div>
+                </td>
+                <td>0円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cTraModal">
+                        25min
                     </button>
                 </td>
             </tr>
             <tr>
                 <td></td>
-                <td>台北車站</td>
-                <td>150元</td>
+                <td>京都車站</td>
+                <td></td>
                 <td>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backTraModal">
+                        30min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>東京車站</td>
+                <td>13,000円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tokyoTraModal">
+                        150min
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>關西機場</td>
+                <td>2,600円</td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#airTraModal">
                         90min
                     </button>
                 </td>
@@ -120,18 +169,145 @@
         </tbody>
     </table>
     <!-- 預定行程列表End -->
-    <!-- Modal 桃園機場 交通 -->
-    <div class="modal fade" id="airTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal 東映太秦映畫村 介紹 -->
+    <div class="modal fade" id="aModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">關西機場 => 桃園機場</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">東映太秦映畫村</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        東映太秦映畫村(4hr-6hr)
+                        https://global.toei-eigamura.com/zh/
+
+                        映畫村門票-2,400日圓
+                        遊樂設施優惠劵（持有入場券者）-1,600日圓
+
+                        含映畫村門票的遊樂設施優惠劵-3,900日圓
+                    </p>
+                    <img src="" class="w-75">
+                    <img src="" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 東映太秦映畫村 交通 -->
+    <div class="modal fade" id="aTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => 東映太秦映畫村</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li>7,711元</li>
+                        <li>京都車站=>花園（京都） 山陰本線 13min 5站 => 走路 1000m 13min ¥200</li>
                     </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26145.296509167314!2d135.71712374083745!3d35.00264804634404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIOaXpeacrCBLeW90bywgU2hpbW9neW8gV2FyZCwgSGlnYXNoaXNoaW9rb2ppIEthbWFkb25vY2hv!3m2!1d34.985849!2d135.7587667!4m5!1s0x6001077138dffbb9%3A0x2bba0881d61d9667!2z5p2x5pig5aSq56em5pig55Wr5p2RIOaXpeacrOOAkjYxNi04MTYxIEt5b3RvLCBVa3lvIFdhcmQsIFV6dW1hc2EgSGlnYXNoaWhhY2hpb2thY2hvLCAxMA!3m2!1d35.015675!2d135.708779!5e0!3m2!1szh-TW!2stw!4v1674998185977!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 清水寺 介紹 -->
+    <div class="modal fade" id="bModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">金閣寺</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        金閣寺
+                    </p>
+                    <img src="" class="w-75">
+                    <img src="" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 金閣寺 交通 -->
+    <div class="modal fade" id="bTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">東映太秦映畫村 => 金閣寺</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>走路 450m 6min => </li>
+                        <li>太秦廣隆寺=>西大路三條 嵐電(京福)嵐山本線 7min 4站</li>
+                        <li>走路 2min => </li>
+                        <li>西大路三條=>金閣寺道 市營205乙 15min 9站</li>
+                        <li>走路 600m 7min</li>
+                        <li>¥450</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26138.5740940569!2d135.7016122908829!3d35.0236795869699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6001077138dffbb9%3A0x2bba0881d61d9667!2z5p2x5pig5aSq56em5pig55Wr5p2RIOaXpeacrOOAkjYxNi04MTYxIEt5b3RvLCBVa3lvIFdhcmQsIFV6dW1hc2EgSGlnYXNoaWhhY2hpb2thY2hvLCAxMA!3m2!1d35.015675!2d135.708779!4m5!1s0x6001a9262c6faf8f%3A0x478cf473c4150d0!2z5pel5pys5Lqs6YO95bqc5Lqs6YO95biC5YyX5Y2AIEtpbmtha3VqaWNobywg6YeR6Zaj5a-6IOS6rOmDvQ!3m2!1d35.0395682!2d135.7283838!5e0!3m2!1szh-TW!2stw!4v1674998438129!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 晴明神社 介紹 -->
+    <div class="modal fade" id="cModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">晴明神社</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        晴明神社
+                    </p>
+                    <img src="" class="w-75">
+                    <img src="" class="w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 晴明神社 交通 -->
+    <div class="modal fade" id="cTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">金閣寺 => 晴明神社</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li> 走路 1200m 16min =></li>
+                        <li>千本北大路=>千本今出川 市營206甲 5min 4站</li>
+                        <li>走路 900m 11min</li>
+                        <li>¥230</li>
+                    </ol>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26134.824655141325!2d135.7322758409083!3d35.03540518174184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6001a9262c6faf8f%3A0x478cf473c4150d0!2z5pel5pys5Lqs6YO95bqc5Lqs6YO95biC5YyX5Y2AIEtpbmtha3VqaWNobywg6YeR6Zaj5a-6IOS6rOmDvQ!3m2!1d35.0395682!2d135.7283838!4m5!1s0x600107df798f7951%3A0xf28aea911a6811d0!2z5pm05piO56We56S-IOaXpeacrOOAkjYwMi04MjIyIEt5b3RvLCBLYW1pZ3lvIFdhcmQsIFNlaW1laWNobw!3m2!1d35.02776!2d135.7511802!5e0!3m2!1szh-TW!2stw!4v1674998756862!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -140,18 +316,25 @@
         </div>
     </div>
 
-    <!-- Modal 台北車站 交通 -->
+    <!-- Modal 京都車站 交通 -->
     <div class="modal fade" id="backTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">桃園機場 => 台北車站</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">晴明神社 => 京都車站</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <ul>
-                        <li>150元</li>
-                    </ul>
+                    <ol>
+                        <li>走路 230m 3min =></li>
+                        <li>一條戻橋、晴明神社前=>下京區綜合廳舍前 市營9 18min 14站</li>
+                        <li>走路 250m 3min</li>
+                        <li>¥230</li>
+                    </ol>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d52287.12557183504!2d135.72062728426368!3d35.008073174146666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600107df798f7951%3A0xf28aea911a6811d0!2z5pm05piO56We56S-IOaXpeacrOOAkjYwMi04MjIyIEt5b3RvLCBLYW1pZ3lvIFdhcmQsIFNlaW1laWNobw!3m2!1d35.02776!2d135.7511802!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIOaXpeacrCBLeW90bywgU2hpbW9neW8gV2FyZCwgSGlnYXNoaXNoaW9rb2ppIEthbWFkb25vY2hv!3m2!1d34.985849!2d135.7587667!5e0!3m2!1szh-TW!2stw!4v1674998793305!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -160,7 +343,51 @@
         </div>
     </div>
 
-
+    <!-- Modal 東京車站 交通 -->
+    <div class="modal fade" id="tokyoTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => 東京車站</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>¥1300</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 關西機場 交通 -->
+    <div class="modal fade" id="airTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">京都車站 => 關西機場</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>京都站=>関西空港第１ターミナル（バス） 關西機場交通車 85min 2站 ¥2600</li>
+                    </ul>
+                    <a href="https://letsgokyoto.com/how-to-get-from-kyoto-to-kix/">交通介紹blog</a>
+                    <br>
+                    <a href="https://secure.j-bus.co.jp/hon/Route/Airport?gpcd=260014&rocd=0001&dtym=202304&dtdd=3">預約巴士</a>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d419933.7838256196!2d135.22158994116387!3d34.686695496882884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96LuK56uZIOaXpeacrCBLeW90bywgU2hpbW9neW8gV2FyZCwgSGlnYXNoaXNoaW9rb2ppIEthbWFkb25vY2hv!3m2!1d34.985849!2d135.7587667!4m5!1s0x6000b91351b903d7%3A0x122605568f9c9b5d!2z5pel5pys5aSn6Ziq5bqc55Sw5bC755S6IFNlbnNodWt1a29uYWthLCDpl5zopb_lnIvpmpvmqZ_loLQgKEtJWCnpl5zopb_mqZ_loLQ!3m2!1d34.4358892!2d135.243459!5e0!3m2!1szh-TW!2stw!4v1674999393490!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
