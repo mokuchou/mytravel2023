@@ -1,10 +1,16 @@
-a{
+a {
     text-decoration: none;
 }
-.top-10{
+
+.top-10 {
     position: relative;
     top: 10vh;
 }
-.bg-lightblue{
+
+.bg-lightblue {
     background: lightblue;
+}
+
+.cp {
+    cursor: pointer;
 }
