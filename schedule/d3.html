@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>OurTravel</title>
+</head>
+
+<body>
+    <!-- 上選單start -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">OurTravel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OurTravel</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../budget.html">預算</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ticket.html">票卷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../traffic.html">交通</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../food.html">美食</a>
+                        </li>
+                        <!-- 行程 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                行程
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="./d1.html">Day 1</a></li>
+                                <li><a class="dropdown-item" href="./d2.html">Day 2</a></li>
+                                <li><a class="dropdown-item" href="./d3.html">Day 3</a></li>
+                                <li><a class="dropdown-item" href="./d4.html">Day 4</a></li>
+                                <li><a class="dropdown-item" href="./d5.html">Day 5</a></li>
+                                <li><a class="dropdown-item" href="./d6.html">Day 6</a></li>
+                                <li><a class="dropdown-item" href="./d7.html">Day 7</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./d8.html">Day 8</a></li>
+                                <li><a class="dropdown-item" href="./d9.html">Day 9</a></li>
+                                <li><a class="dropdown-item" href="./d10.html">Day 10</a></li>
+                                <li><a class="dropdown-item" href="./d11.html">Day 11</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../doc.html">其他文件</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 上選單End -->
+
+    <!-- 預定行程列表Start -->
+    <h3 class="top-10 text-center bg-secondary text-white">Day 3 行程</h3>
+    <div class="top-10">
+        ==== <a href="https://lazyjapan.com/regions/tokyo/trips/5days/akihabara.html" target="_blank">秋葉原</a> (考慮不去)
+    </div>
+    <div class="top-10 accordion" id="accordionPanelsStayOpenExample">
+        <!-- 池袋 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    <p>??:??</p>
+                    <p>池袋</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aTraModal">
+                        東日本橋站 => 池袋 交通 40min
+                    </button><br>
+                    飯店 09:00<br>
+                    走路到 -> 都營-新宿線-馬喰橫山 -> 都營-新宿線-小川町(東京)<br>
+                    下車走路到 -> 東京地鐵-丸之內線-淡路町 -> 池袋<br>
+                    <br>
+                    JR: 池袋 ->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#sunshinecityModal">
+                        太陽城(吃飯)
+                    </button>
+                    -> Animate池袋本店 -> JR: 池袋 -> JR: 涉谷
+                </div>
+            </div>
+        </div>
+        <!-- 涉谷 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    <p>??:??</p>
+                    <p>澀谷</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    JR: 澀谷 -> 忠犬小八 -> 宮下公園 MIYASHITA PARK ->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#parcoModal">
+                        PARCO 百貨
+                    </button>
+                    -> JR: 涉谷 -> JR: 東京
+                </div>
+            </div>
+        </div>
+        <!-- 東京 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    <p>??:??</p>
+                    <p>東京車站</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bTraModal">
+                        三鷹之森吉卜力美術 -> 吉祥寺SUN ROAD商店街 交通 20min
+                    </button><br> -->
+                    JR: 東京 -> 東京站一番街 -> 回家<br>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#tokyoStaModal">
+                        東京車站
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- 午餐-餐廳 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingLunch">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseLunch" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseLunch">
+                    <p>??:??</p>
+                    <p>午餐-餐廳</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseLunch" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingLunch">
+                <div class="accordion-body">
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#yTraModal">
+                        交通1.5hr
+                    </button><br> -->
+                </div>
+            </div>
+        </div>
+        <!-- 晚餐-餐廳 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingDinner">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseDinner" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseDinner">
+                    <p>??:??</p>
+                    <p>晚餐-餐廳</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseDinner" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingDinner">
+                <div class="accordion-body">
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#yTraModal">
+                        交通1.5hr
+                    </button><br> -->
+                </div>
+            </div>
+        </div>
+        <!-- 返家 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingHotel">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseHotel" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseHotel">
+                    <p>??:??</p>
+                    <p>返家</p>
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseHotel" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingHotel">
+                <div class="accordion-body">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#yTraModal">
+                        都營-淺草線-日本橋站 -> 都營-淺草線-東日本橋站 交通 20min
+                    </button><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 預定行程列表End -->
+
+    <!-- Modal 東日本橋站 => 池袋 交通 -->
+    <div class="modal fade" id="aTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        東日本橋站 => 池袋 40min
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d51827.228307858444!2d139.7156261!3d35.721256!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6018894d39b3da51%3A0x25f8c032714017e5!2z5pel5pys5p2x5Lqs6YO95Lit5aSu5Y2AIOadseaXpeacrOapizMgQ2hvbWXiiJIxMuKIkjE05p2x5pel5pys5qmL56uZ5YmNQVBB6aOv5bqX!3m2!1d35.6926217!2d139.7846976!4m5!1s0x60188d6f134fd653%3A0x51eb1d42c77222c2!2z5pel5pys5p2x5Lqs6YO96LGQ5bO25Y2A5p2x5rGg6KKLIDMgQ2hvbWXiiJIxLCDlpKrpmb3ln44!3m2!1d35.7289709!2d139.7195415!5e0!3m2!1szh-TW!2stw!4v1676199649857!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 都營-淺草線-日本橋站 -> 都營-淺草線-東日本橋站 交通 -->
+    <div class="modal fade" id="yTraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">都營-淺草線-日本橋站 -> 都營-淺草線-東日本橋站 20min</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d25927.36565724123!2d139.7532203676758!3d35.67895437307421!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x60188bfbfb155a21%3A0x9f422542275585d9!2z5pel5pys5p2x5Lqs6YO95Y2D5Luj55Sw5Y2A5Li45LmL5YWnIDEgQ2hvbWXiiJI5LCBKUiDmnbHkuqzpp4U!3m2!1d35.6812362!2d139.7671248!4m5!1s0x6018894d39b3da51%3A0x25f8c032714017e5!2z5pel5pys5p2x5Lqs6YO95Lit5aSu5Y2AIOadseaXpeacrOapizMgQ2hvbWXiiJIxMuKIkjE05p2x5pel5pys5qmL56uZ5YmNQVBB6aOv5bqX!3m2!1d35.6926217!2d139.7846976!5e0!3m2!1szh-TW!2stw!4v1676199729432!5m2!1szh-TW!2stw"
+                        width="w-50" height="h-50" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 太陽城 介紹 -->
+    <div class="modal fade" id="sunshinecityModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        <a href="https://sunshinecity.jp/zh-tw/">Sunshine City</a>
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://www.bring-you.info/zh-tw/sunshine-city" target="_blank">Sunshine
+                        City</a>分為四個主要大樓<br>
+                    World Import Mart大樓的2F -> ONE PIECE mugiwara store Ikebukuro<br>
+                    World Import Mart大樓的2F -> NAMJA TOWN 南夢宮主題樂園<br>
+                    World Import Mart大樓的 1F跟B1F(稱為Alta商場) 可以連通到隔壁的 王子大飯店大樓的 Alta美食街<br>
+                    王子大飯店大樓 的2F 有 Pokemon center<br>
+                    王子大飯店B1 為 Alta美食街, 有世界各地的咖啡<br>
+                    另外還有 陽光60大樓跟文化會館大樓<br>
+                    <br>
+                    <a href="https://www.bring-you.info/zh-tw/namja-town" target="_blank">南夢宮主題樂園</a><br>
+                    (買門票, 不買設施, 昭和懷舊街道,歐風繪本奇幻世界,妖魔鬼怪番外地)<br>
+                    南夢宮餃子競技場網羅了日本各都道府縣最有名與最特殊的餃子，連日本餃子四天王名店都在這裡擺攤<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal PARCO 百貨 介紹 -->
+    <div class="modal fade" id="parcoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        PARCO 百貨
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    5F: 未來百貨概念店<br>
+                    6F: 任天堂旗艦店, Pokemon center, Jump Shop<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 東京車站 介紹 -->
+    <div class="modal fade" id="tokyoStaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        東京車站
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://blog.kkday.com/7113/asia-japan-tokyo-station?RID=POST_AUTO&place=139263&target=7113"
+                        target="_blank">東京一番街</a><br>
+                    東京中央郵便局 (07:00~21:00), 動漫明信片<br>
+                    東京動漫人物街<br>
+                    <br>
+                    JR東京站的 八重洲地下中央口 距離 東京站一番街 最近<br>
+                    <br>
+                    退稅櫃台位在八重州北口的右手邊, 一樓的星巴克旁, 達5000日圓就可以到櫃台辦理退稅<br>
+                    東京站一番街在買東西之前, 先到櫃台辦理免稅登記, 出示護照後會拿到免稅導覽手冊、免稅申請表, 退稅的店家只限紅底白字的退稅標誌<br>
+                    商店結帳時, 將免稅申請表交給店員, 店員便會將收據貼在申請表, 全部購物完後要再回到退稅櫃台, 出示免稅申請表、購買商品。<br>
+                    <br>
+                    TOKYO GIFT PALETTE: 田謹製 紅豆餡奶油麵包屋(紅豆內餡奶油費南雪), CLUB HARIE e-challenge (年輪蛋糕),<br>
+                    PISTA＆TOKYO(開心果巧克力夾心餅乾、開心果奶油夾心餅乾)<br>
+                    東京動漫人物街: 常設型商店像是寶可夢, 角落生物, 蠟筆小新, 拉拉熊, 正能量企鵝, 光之美少女等人氣動漫主題專賣店<br>
+                    東京芭娜娜專賣店: 東京芭娜娜咖哩麵包, 東京芭娜娜的奶油紅豆甜甜圈<br>
+                    <br>
+                    東京拉麵街, 日本美食街道, 東京甜點樂園<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
