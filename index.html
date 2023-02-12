@@ -33,6 +33,9 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="./budget.html">預算</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="./ticket.html">票卷</a>
                         </li>
                         <li class="nav-item">
@@ -69,10 +72,6 @@
                             <a class="nav-link" href="./doc.html">其他文件</a>
                         </li>
                     </ul>
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -125,34 +124,58 @@
                 <th scope="col">日期</th>
                 <th scope="col">時間</th>
                 <th scope="col">地點</th>
-                <th scope="col">價格</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th scope="row">D1</th>
                 <td>13:30-17:30</td>
-                <td>TPE-NRT</td>
-                <td>6,519元</td>
+                <td>
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="6,519元">
+                        TPE-NRT
+                    </div>
+                </td>
             </tr>
             <tr>
                 <th scope="row">D1-D6</th>
                 <td>15:00-10:00</td>
-                <td>Hotel Tokyo</td>
-                <td>17,450元</td>
+                <td>
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="17,450元">
+                        Hotel Tokyo
+                    </div>
+                </td>
             </tr>
             <tr>
                 <th scope="row">D7-D9</th>
                 <td>15:00-11:00</td>
-                <td>Hotel Kyoto</td>
-                <td>62,330円</td>
+                <td>
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="62,330円">
+                        Hotel Kyoto
+                    </div>
+                </td>
             </tr>
-
+            <tr>
+                <th scope="row">D10</th>
+                <td>08:30-22:00</td>
+                <td>
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="2,036元">
+                        USJ
+                    </div>
+                </td>
+            </tr>
             <tr>
                 <th scope="row">D11</th>
                 <td>07:55-09:55</td>
-                <td>KIX-TPE</td>
-                <td>7,711元</td>
+                <td>
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="7,711元">
+                        KIX-TPE
+                    </div>
+                </td>
             </tr>
         </tbody>
     </table>
@@ -167,7 +190,9 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 <script>
-    $(function(){
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    $(function () {
         $('.dateBtn').click(function () {
             console.log($(this).text());
         })

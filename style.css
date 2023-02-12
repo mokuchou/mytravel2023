@@ -14,3 +14,12 @@ a {
 .cp {
     cursor: pointer;
 }
+
+.accordion-button>p:nth-child(1){
+    /* 行程標題的時間 */
+    width: 30%;
+}
+.accordion-button>p:nth-child(2){
+    /* 行程標題的地點 */
+    width: 65%;
+}
